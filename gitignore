@@ -1,0 +1,8 @@
+asset/
+svg asset/
+*.svg
+*.webp
+*.jpeg
+*.jpg
+*.png
+*.zip
