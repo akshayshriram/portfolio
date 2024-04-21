@@ -72,9 +72,13 @@ body .ctaButton .downloadIcon {
   transition: 0.4s ease-in-out;
 }
 
+#banner {
+  padding: 50px 0;
+}
 #banner .profileImage {
   width: 100%;
   height: auto;
+  max-width: 320px;
 }
 #banner .ctaButton {
   width: -moz-fit-content;
@@ -83,4 +87,91 @@ body .ctaButton .downloadIcon {
 #banner .ctaButton .downloadIcon {
   padding: 15px;
   top: 2px;
+}
+
+.testimonial-block {
+  padding: 50px 0;
+  background: url("[php.site_url/]/wp-content/uploads/2024/04/background-gradient1.webp");
+  background-size: 100% 100%;
+}
+@media (max-width: 768px) {
+  .testimonial-block .content1 {
+    padding-top: 32px;
+  }
+}
+@media (max-width: 768px) {
+  .testimonial-block .left_subtitle {
+    padding-top: 9px;
+  }
+}
+@media (max-width: 768px) {
+  .testimonial-block .right_subtitle {
+    padding-top: 8px;
+  }
+}
+.testimonial-block .back_img {
+  z-index: -1;
+  top: 45px;
+}
+@media (max-width: 768px) {
+  .testimonial-block .back_img {
+    top: 21px;
+  }
+}
+.testimonial-block .swiper {
+  width: 90%;
+  height: 265px;
+}
+.testimonial-block .content-item {
+  display: none;
+}
+.testimonial-block .content-item.show {
+  display: block;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+.testimonial-block .content-item.show.fade-in {
+  opacity: 1;
+}
+.testimonial-block .swiper-3d,
+.testimonial-block .swiper-slide-shadow {
+  background: transparent !important;
+}
+.testimonial-block .swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: white !important;
+  box-shadow: 0px 5px 30px rgba(47, 106, 242, 0.1019607843);
+  padding: 30px;
+}
+@media screen and (max-width: 768px) {
+  .testimonial-block .swiper-slide {
+    padding: 26px;
+    height: 200px;
+  }
+}
+.testimonial-block hr {
+  border: none;
+  background: #fff;
+  opacity: 0.5;
+  height: 1px;
+  margin-top: 16px;
+}
+.testimonial-block .test-pagination {
+  bottom: var(--swiper-pagination-bottom, -40px) !important;
+}
+@media screen and (max-width: 768px) {
+  .testimonial-block .test-pagination {
+    bottom: var(--swiper-pagination-bottom, 25px) !important;
+  }
+}
+.testimonial-block .numericTitle {
+  font-size: 36px;
+  font-weight: 700;
+}
+.testimonial-block .numericSubTitle {
+  font-size: 24px;
+  font-weight: 700;
 }/*# sourceMappingURL=style.css.map */
