@@ -93,6 +93,7 @@ body .ctaButton .downloadIcon {
   padding: 50px 0;
   background: url("[php.site_url/]/wp-content/uploads/2024/04/background-gradient1.webp");
   background-size: 100% 100%;
+  overflow: hidden;
 }
 @media (max-width: 768px) {
   .testimonial-block .content1 {
@@ -174,4 +175,38 @@ body .ctaButton .downloadIcon {
 .testimonial-block .numericSubTitle {
   font-size: 24px;
   font-weight: 700;
+}
+
+#experienceSection {
+  padding: 50px 0;
+}
+
+#skillset {
+  padding: 50px 0;
+}
+#skillset .skillsetContainer {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+#skillset p {
+  border: 1px solid #dccfed;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 10px;
+  margin: 0;
+  color: #dccfed;
+  background-color: #331c52;
+}
+
+#footer {
+  background-color: #331c52;
+  min-height: 70vh;
+}
+#footer h2 {
+  font-size: 64px;
+  padding-top: 100px;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */

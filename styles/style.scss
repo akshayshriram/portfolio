@@ -93,6 +93,7 @@ body {
     padding: 50px 0;
     background: url("[php.site_url/]/wp-content/uploads/2024/04/background-gradient1.webp");
     background-size: 100% 100%;
+    overflow: hidden;
     .content1 {
         @media (max-width: 768px) {
             padding-top: 32px;
@@ -168,5 +169,38 @@ body {
     .numericSubTitle {
         font-size: 24px;
         font-weight: 700;
+    }
+}
+
+#experienceSection {
+    padding: 50px 0;
+}
+
+#skillset {
+    padding: 50px 0;
+    .skillsetContainer {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    p {
+        border: 1px solid #dccfed;
+        width: fit-content;
+        padding: 10px;
+        margin: 0;
+        color: #dccfed;
+        background-color: #331c52;
+    }
+}
+
+#footer {
+    background-color: $darkblue;
+    min-height: 70vh;
+    h2 {
+        font-size: 64px;
+        padding-top: 100px;
+        color: $white;
+        font-weight: bold;
+        text-align: center;
     }
 }
