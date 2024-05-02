@@ -64,7 +64,7 @@ body {
             color: #331c52;
             position: absolute;
             padding: 13px;
-            right: 0px;
+            right: 2px;
             top: 0px;
             border-radius: 50%;
             font-size: 20px;
@@ -147,6 +147,12 @@ body {
             padding: 26px;
             height: 200px;
         }
+    }
+    .swiper-pagination-bullet {
+        background-color: $lightBlue;
+    }
+    .swiper-pagination-bullet-active {
+        background-color: #fff;
     }
     hr {
         border: none;

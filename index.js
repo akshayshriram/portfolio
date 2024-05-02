@@ -13,6 +13,10 @@ var logoswiper = new Swiper('.swiper', {
         el: ".test-pagination",
         clickable: true,
     },
+    autoplay: {
+        delay: 5000,
+    },
+
     on: {
         slideChange: function() {
             $('.content-item').removeClass('show fade-in');

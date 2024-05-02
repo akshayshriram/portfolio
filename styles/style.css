@@ -65,7 +65,7 @@ body .ctaButton .downloadIcon {
   color: #331c52;
   position: absolute;
   padding: 13px;
-  right: 0px;
+  right: 2px;
   top: 0px;
   border-radius: 50%;
   font-size: 20px;
@@ -152,6 +152,12 @@ body .ctaButton .downloadIcon {
     padding: 26px;
     height: 200px;
   }
+}
+.testimonial-block .swiper-pagination-bullet {
+  background-color: #dccfed;
+}
+.testimonial-block .swiper-pagination-bullet-active {
+  background-color: #fff;
 }
 .testimonial-block hr {
   border: none;
